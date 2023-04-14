@@ -180,16 +180,3 @@ padding: 0px 5px;
 
 }
 
-/* media queries */
-@media (max-width: 1000px) {
-    .title-image {
-        position: static;
-        /* so that the pic doesnot hide in smaller screens*/
-        transform: rotate(0);
-    }
-
-    #title {
-        text-align: center;
-    }
-
-}
