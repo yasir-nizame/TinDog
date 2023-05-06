@@ -27,17 +27,17 @@
 
 <body>
 
-  <section id="title">
+  <section id="title" class="gradient-background">
     <div class="container-fluid">
       <nav class=" navbar navbar-expand-lg ">
         <!-- bg-warning -->
-        <a class="navbar-brand " href="">tindog</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand " href="#">tindog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="#navbarTogglerDemo01">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <div>
           </div>
           <ul class="navbar-nav ms-auto">
@@ -63,20 +63,29 @@
 
 
       <!-- Title -->
-      <div class="row fts">
-        <div class=" col-lg-6 col-sm-6 ">
-          <!-- col-md-12 col-sm-12 no need to mention this,its by default-->
-          <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg  download-buttons"><i
-              class="fa-brands fa-apple fa-shake fa-lg download-buttons-glyphs" style="color: #f95858;"></i></i>Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg  download-buttons "><i
-              class="fa-brands fa-google-play fa-spin fa-lg download-buttons-glyphs" style="color: #000000;"></i>Download</button>
-        </div>
 
-        <div class="col-lg-6">
-          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5 ">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="images/iphone6.png" class="d-block mx-lg-auto  " alt="Bootstrap Themes"
+              height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+
+            <h1>Meet new and interesting dogs nearby.</h1>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 "><i
+                      class="fa-brands fa-apple fa-shake fa-lg download-buttons-glyphs"
+                      style="color: #f95858;"></i>Download</button>
+                  <button type="button" class="btn btn-outline-light btn-lg px-4"><i
+                      class="fa-brands fa-google-play fa-spin fa-lg download-buttons-glyphs"
+                      style="color: #000000;"></i>Download</button>
+
+                </div>
+          </div>
         </div>
       </div>
+
     </div>
   </section>
 
@@ -85,7 +94,7 @@
 
   <section id="features">
     <div class="row">
-      <div class="col-lg-4 box">
+      <div class="col-lg-4 box ">
 
         <i class="fa-solid fa-circle-check fa-shake -fade fa-4x icon"></i>
         <h3>Easy to use.</h3>
@@ -137,11 +146,10 @@
 
       <button class="carousel-control-prev" type="button" data-bs-target="#carousel-Interval" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
-        <!-- used for visually impaired persons <span class="visually-hidden">Previous</span> -->
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carousel-Interval" data-bs-slide="next">
         <span class="carousel-control-next-icon"></span>
-        <!-- <span class="visually-hidden">Next</span>aria-hidden="true -->
+      
       </button>
     </div>
 
@@ -151,11 +159,16 @@
   <!-- Press -->
 
   <section id="press">
-    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
-    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
-
+    <div class="container">
+      <!-- <div class="row"> -->
+      <div class="col-lg-12 col-sm-12">
+        <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+        <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+        <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+        <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+      </div>
+      <!-- </div> -->
+    </div>
   </section>
 
 
@@ -239,9 +252,11 @@
 
     <h3 id="cta-sc">Find the True Love of Your Dog's Life Today.</h3>
     <button type="button" class="btn btn-dark btn-lg  download-buttons  "><i
-      class="fa-brands fa-apple fa-shake fa-lg download-buttons-glyphs  " style="color:white;"></i></i>Download</button>
-  <button type="button" class="btn btn-light btn-lg  download-buttons  "><i
-      class="fa-brands fa-google-play fa-spin fa-lg download-buttons-glyphs " style="color: #000000;"></i>Download</button>
+        class="fa-brands fa-apple fa-shake fa-lg download-buttons-glyphs  "
+        style="color:white;"></i></i>Download</button>
+    <button type="button" class="btn btn-light btn-lg  download-buttons  "><i
+        class="fa-brands fa-google-play fa-spin fa-lg download-buttons-glyphs "
+        style="color: #000000;"></i>Download</button>
 
   </section>
 
@@ -250,16 +265,15 @@
 
   <footer id="footer">
 
-        <i class=" glyphs fa-brands fa-twitter fa-xl" ></i>
-        <i class=" glyphs fa-brands fa-facebook-f fa-xl" ></i>
-        <i class="glyphs fa-brands fa-instagram fa-xl" ></i>
-        <i class="glyphs fa-brands fa-snapchat fa-xl" ></i>
-        <i id="Copyright">© Copyright 2023 TinDog</i>
-       
+    <i class=" glyphs fa-brands fa-twitter fa-xl"></i>
+    <i class=" glyphs fa-brands fa-facebook-f fa-xl"></i>
+    <i class="glyphs fa-brands fa-instagram fa-xl"></i>
+    <i class="glyphs fa-brands fa-snapchat fa-xl"></i>
+    <i id="Copyright">© Copyright 2023 TinDog</i>
+
   </footer>
 
 
 </body>
 
 </html>
-
