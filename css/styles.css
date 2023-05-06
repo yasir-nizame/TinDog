@@ -1,5 +1,4 @@
 h1 {
-    /* font-family: 'Montserrat-black', sans-serif; */
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
@@ -49,14 +48,6 @@ padding: 0px 5px;
 
 }
 
-.title-image {
-    width: 20%;
-    transform: rotate(20deg);
-    position: absolute;
-    right: 20%;
-
-
-}
 
 /* navbar */
 .navbar {
@@ -180,3 +171,21 @@ padding: 0px 5px;
 
 }
 
+.gradient-background {
+    background: linear-gradient(300deg, #daff0a, #ff4c68, #f58f4b);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
