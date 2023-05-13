@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="utf-8">
+  <!-- css style sheet -->
   <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
   <title>TinDog</title>
   <link rel="stylesheet" href="css/styles.css">
 
 
   <!-- google fonts -->
-
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,29 +64,62 @@
 
       <!-- Title -->
 
-      <div class="container col-xxl-8 px-4 py-5">
+      <!-- <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5 ">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="images/iphone6.png" class="d-block mx-lg-auto  " alt="Bootstrap Themes"
-              height="500" loading="lazy">
-          </div>
-          <div class="col-lg-6">
+          <div class="col-md-6">
 
             <h1>Meet new and interesting dogs nearby.</h1>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                  <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 "><i
-                      class="fa-brands fa-apple fa-shake fa-lg download-buttons-glyphs"
-                      style="color: #f95858;"></i>Download</button>
-                  <button type="button" class="btn btn-outline-light btn-lg px-4"><i
-                      class="fa-brands fa-google-play fa-spin fa-lg download-buttons-glyphs"
-                      style="color: #000000;"></i>Download</button>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-dark btn-lg px-4 me-md-2 "><i
+                  class="fa-brands fa-apple fa-shake fa-lg download-buttons-glyphs"
+                  style="color: #f95858;"></i>Download</button>
+              <button type="button" class="btn btn-outline-light btn-lg px-4"><i
+                  class="fa-brands fa-google-play fa-spin fa-lg download-buttons-glyphs"
+                  style="color: #000000;"></i>Download</button>
 
-                </div>
+            </div>
+            "col-10 col-sm-8 col-lg-6"
+            <div class="positioning col-md-6 z">
+              <img src="images/iphone6.png" class="d-block mx-lg-auto  " alt="Bootstrap Themes" height="500"
+                loading="lazy">
+            </div>
           </div>
         </div>
+      </div> -->
+
+      
+      
+      <!-- nabil work -->
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
+          <button type="button " class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i>
+            Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg  download-button"><i
+              class="fa-brands fa-google-play"></i> Download</button>
+            </div>
+            <div class="positioning col-md-6 z">
+              <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+            </div>
+          </div>
+      
+        
+        
       </div>
 
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   </section>
 
 
@@ -94,7 +127,7 @@
 
   <section id="features">
     <div class="row">
-      <div class="col-lg-4 box ">
+      <div class="col-lg-4 col-md-4 box ">
 
         <i class="fa-solid fa-circle-check fa-shake -fade fa-4x icon"></i>
         <h3>Easy to use.</h3>
@@ -149,7 +182,7 @@
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carousel-Interval" data-bs-slide="next">
         <span class="carousel-control-next-icon"></span>
-      
+
       </button>
     </div>
 
@@ -161,8 +194,8 @@
   <section id="press">
     <div class="container">
       <!-- <div class="row"> -->
-      <div class="col-lg-12 col-sm-12">
-        <img class="press-logo" src="images/TechCrunch.png"  alt="tc-logo">
+      <div class="col-lg-12 col-md-8">
+        <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
         <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
         <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
         <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
@@ -175,13 +208,13 @@
   <!-- Pricing -->
 
 
-  <section id="pricing">
+  <!-- <section id="pricing">
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
 
 
-    <div class="row ">
-      <div class="col-lg-4 col-md-12 col-sm-12  ">
+    <div class="row center ">
+      <div class="col-lg-4 col-md-12 col-sm-12   ">
 
         <div class="card .h-100 pricing-cards" style="width: 18rem;">
           <div class="card-body">
@@ -243,13 +276,93 @@
       </div>
     </div>
 
+  </section> -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+    <div class="row">
+      <div class="pricing-column col-xl-4 col-lg-4 col-md-4 col-sm-6 ">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <div class="d-grid gap-2">
+              <button type="button" class="btn btn-lg  btn-outline-dark ">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-xl-4 col-lg-4 col-md-4 col-sm-6 ">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <div class="d-grid gap-2">
+              <button type="button" class="btn btn-lg btn-dark ">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-xl-4 col-lg-4 col-md-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <div class="d-grid gap-2">
+              <button type="button" class="btn  btn-lg btn-dark">Sign Up</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   <!-- Call to Action -->
 
   <section id="cta">
-
+    <div class="container-fluid">
+    
     <h3 id="cta-sc">Find the True Love of Your Dog's Life Today.</h3>
     <button type="button" class="btn btn-dark btn-lg  download-buttons  "><i
         class="fa-brands fa-apple fa-shake fa-lg download-buttons-glyphs  "
@@ -257,13 +370,16 @@
     <button type="button" class="btn btn-light btn-lg  download-buttons  "><i
         class="fa-brands fa-google-play fa-spin fa-lg download-buttons-glyphs "
         style="color: #000000;"></i>Download</button>
-
+      </div>
   </section>
+
+
 
 
   <!-- Footer -->
 
   <footer id="footer">
+    
 
     <i class=" glyphs fa-brands fa-twitter fa-xl"></i>
     <i class=" glyphs fa-brands fa-facebook-f fa-xl"></i>
